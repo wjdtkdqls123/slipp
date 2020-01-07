@@ -7,6 +7,15 @@
 	<artifactId>qna</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>5.2.2.RELEASE</version>
+		</dependency>
+
+	</dependencies>
 
 	<build>
 		<finalName>qna</finalName>
